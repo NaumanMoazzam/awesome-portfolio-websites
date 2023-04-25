@@ -5,25 +5,32 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Senior Software Engineer",
+    cardImage: "assets/images/experience-page/khired.png",
+    place: "Khired Networks",
+    time: "(Apr, 2021 - present)",
+    desp: "<li>Working on Social platform in React Native and backend is designed on Node.JS.</li> <li>Working on getstream.io for maintaining chat and feeds.</li> <li>Responsible for managing and training interns.</li><li>Working as a team lead in different projects.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Senior Software Engineer",
+    cardImage: "assets/images/experience-page/nevo.jpeg",
+    place: "Nevo.ie",
+    time: "(Nov, 21 - Jan, 23)",
+    desp: "<li>Worked on React JS, Next JS with typescript, to develop NEVO.IE</li><li>Worked on Node JS backend.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Senior Web Application Developer",
+    cardImage: "assets/images/experience-page/trango.jpeg",
+    place: "Trango",
+    time: "(Aug, 20 - Oct, 21)",
+    desp: "<li>Responsible for making Web App of Trango.io i.e. web.trango.io.</li><li>Working on WebRTC for Audio/Video calling & File sharing.</li><li>Working on SFU for Audio/Video meeting.</li><li>Working with open source chat i.e. Rocket Chat.</li>",
+  },
+  {
+    title: "React Developer",
+    cardImage: "assets/images/experience-page/tello.jpeg",
+    place: "Tello Talk",
+    time: "(Sep, 19 - Aug, 20)",
+    desp: "<li>Responsible for making Web Chat SDK.</li><li>Worked as team member to design and develop in-house product.</li>",
   },
 ];
 
@@ -59,7 +66,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 // Volunteership Cards
 
-const volunteership = document.querySelector(".volunteership");
+// const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
     title: "GirlScript Summer Of Code 2020",
@@ -108,7 +115,7 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
-const hackathonsection = document.querySelector(".hackathon-section");
+// const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
     title: "The Uplift Project",
